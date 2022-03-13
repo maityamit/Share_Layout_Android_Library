@@ -56,6 +56,20 @@ Which view layout you want to share , which may be linear/relative or any type o
 ### String : 
 Which String you want to share with Screensshot
 	
+<br>
+	
+#### Example : 
+``` 
+View view = findViewById(R.id.relativeLayout);
+Button button = findViewById(R.id.button_share);
+button.setOnClickListener(new View.OnClickListener() {
+      @Override
+         public void onClick(View v) {
+              ShareLayout.simpleLayoutShare(MainActivity.this,view,"Hello I am Amit");
+           }
+   });
+```
+	
 	
 <br>
 <h1 align=center> Created By  🤵 </h1>
