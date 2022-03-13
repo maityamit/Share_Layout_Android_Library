@@ -1,9 +1,15 @@
 # Share Layout Android Library
 
 
-# ⚙️Gradle 
+## 🤔Problem : 
 
-## Add this on build.gradle(project)
+## ✅Solution : 
+
+#### Just add this dependency ``` implementation 'com.github.maityamit:Share_Layout_Android_Library:1.0.0' ``` in yout project and you can use the method directly by call this ``` ShareLayout.simpleLayoutShare( Context , View , String ); ``` and easily share any screenshot 📱 via Intent. 
+
+## ⚙️Gradle 
+
+### Add this on build.gradle(project)
 ```
 allprojects {
 	repositories {
@@ -14,7 +20,7 @@ allprojects {
   
 ```
   
-## Add this on build.gradle(module)
+### Add this on build.gradle(module)
 ```
 dependencies {
              ....
@@ -22,7 +28,7 @@ dependencies {
 	}
 ```
 
-# ♨️Java
+## ♨️Java
 ``` 
 ShareLayout.simpleLayoutShare( Context , View , String );
 ```
