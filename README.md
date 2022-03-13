@@ -3,6 +3,13 @@
 
 ## 🤔Problem : 
 
+#### In Android Studio for any Application to share any ``` Layout Screenshot ``` via Intent , you need to write methods where you write the whole code .. 
+#### 1. Take Screenshot from the layout
+#### 2. Convert into Bitmap 
+#### 3. Share Methods where you will share the image and string via Intent
+
+#### There you write the whole code for share , this take too long so for that Now you can write this in a single line . 
+
 ## ✅Solution : 
 
 #### Just add this dependency ``` implementation 'com.github.maityamit:Share_Layout_Android_Library:1.0.0' ``` in yout project and you can use the method directly by call this ``` ShareLayout.simpleLayoutShare( Context , View , String ); ``` and easily share any screenshot 📱 via Intent. 
