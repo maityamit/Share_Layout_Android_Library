@@ -1,20 +1,6 @@
 # Share Layout Android Library
 
 
-# ♨️Java
-``` 
-ShareLayout.simpleLayoutShare( Context , View , String );
-```
-
-### Context : 
-In which context you call this.
-### View : 
-Which view layout you want to share , which may be linear/relative or any type of
-
-### String : 
-Which String you want to share with Screensshot
-
-
 # ⚙️Gradle 
 
 ## Add this on build.gradle(project)
@@ -35,6 +21,19 @@ dependencies {
 	     implementation 'com.github.maityamit:Share_Layout_Android_Library:1.0.0'
 	}
 ```
+
+# ♨️Java
+``` 
+ShareLayout.simpleLayoutShare( Context , View , String );
+```
+
+### Context : 
+In which context you call this.
+### View : 
+Which view layout you want to share , which may be linear/relative or any type of
+
+### String : 
+Which String you want to share with Screensshot
 
 
 # 📝Change Log
