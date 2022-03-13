@@ -7,6 +7,8 @@
 
 #### Just add this dependency ``` implementation 'com.github.maityamit:Share_Layout_Android_Library:1.0.0' ``` in yout project and you can use the method directly by call this ``` ShareLayout.simpleLayoutShare( Context , View , String ); ``` and easily share any screenshot 📱 via Intent. 
 
+<br>
+
 ## ⚙️Gradle 
 
 ### Add this on build.gradle(project)
