@@ -1,0 +1,3 @@
+include ':sharelibrary'
+include ':app'
+rootProject.name = "Share Layout App"
