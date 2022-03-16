@@ -22,7 +22,7 @@
 	
 <br>
 
-## ⚙️Gradle 
+## ``` ⚙️Gradle ```
 
 ### Add this on build.gradle(project)
 ```
@@ -43,7 +43,7 @@ dependencies {
 	}
 ```
 
-## ♨️Java
+## ``` ♨️Java ```
 ``` 
 ShareLayout.simpleLayoutShare( Context , View , String );
 ```
@@ -58,7 +58,7 @@ Which String you want to share with Screensshot
 	
 <br>
 	
-#### Example : 
+#### ``` Example : ```
 ``` 
 View view = findViewById(R.id.relativeLayout);
 Button button = findViewById(R.id.button_share);
@@ -86,7 +86,7 @@ button.setOnClickListener(new View.OnClickListener() {
   <br>
 
 
-# 📝Change Log
+## ``` 📝Change Log ```
 
 ### 1. 1.0.0
 Simple Share Layout Screenshot with text add this version. 
